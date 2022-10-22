@@ -1,0 +1,66 @@
+.dishes{
+    width: 100%;
+    margin-bottom: 150px;
+
+    .dishes__title{
+        text-align: center;
+        font-size: 54px;
+        font-family: $f2;
+        color: black;
+        padding-top: 130px;
+        margin-bottom: 140px;
+
+        >span{
+            margin-left: 10px;
+            color: #D67E34;
+        }
+    }
+
+    .dishes__list{
+        display: flex;
+
+        .dishes__img{
+            margin-right: 25px;
+            height: 478px;
+
+            >img{
+                height: 478px;
+            }
+        }
+
+        .dishes__items{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .dishes__item{
+                display: flex;
+                align-items: center;
+                margin: auto 0;
+
+                &:first-child{
+                    margin-top: 0;
+                }
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+
+                >img{
+                    margin-right: 25px;
+                }
+
+                .dishes__item-text{
+                    font-size: 26px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+
+                    >span{
+                        font-size: 22px;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

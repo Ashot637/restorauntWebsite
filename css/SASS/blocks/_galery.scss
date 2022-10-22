@@ -1,0 +1,40 @@
+.gallery{
+    background: white;
+    margin-bottom: 50px;
+
+    .gallery__title{
+        padding-top: 100px;
+        font-size: 54px;
+        font-family: $f2;
+        color: black;
+        text-align: center;
+        margin-bottom: 80px;
+
+        >span{
+            color: #D67E34;
+        }
+    }
+
+    .gallery__images{
+        display: flex;
+        justify-content: center;
+
+
+        .gallery__images-inner{
+            width: 1120px;
+            >img{
+                display: inline;
+                margin-bottom: 25px;
+                margin-right: 25px;
+    
+                &:nth-child(3){
+                    margin-right: 0;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+
+    }
+}

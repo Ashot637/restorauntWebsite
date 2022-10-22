@@ -1,0 +1,96 @@
+.history{
+    margin-top: 90px;
+    margin-bottom: 150px;
+
+    .history__inner{
+        display: flex;
+        justify-content: space-between;
+
+
+        .history__title{
+            width: 440px;
+            text-align: center;
+            color: black;
+            font-family: $f2;
+            font-size: 54px;
+            text-align: center;
+            margin-bottom: 25px;
+    
+            >span{
+                color: #D67E34;
+            }
+        }
+    
+        .history__subtitle{
+            font-family: $f1;
+            font-size: 16px;
+            font-weight: 400;
+            color: #656363;
+            text-align: center;
+            line-height: 22px;
+            width: 440px;
+        }
+    
+        .history__number{
+            width: 440px;
+            display: flex;
+            align-items: center;
+            margin-top: 70px;
+    
+            .history__item{
+                margin: 0 30px;
+                color: #BC9060;
+                font-family: $f1;
+                font-weight: 400;
+                font-size: 40px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+    
+    
+                >span{
+                    color: black;
+                    font-size: 25px;
+                    font-family: $f2;
+                }
+            }
+        }
+
+        .history__images{
+            position: relative;
+            width: 700px;
+
+            .img__1{
+                position: absolute;
+                z-index: 999;
+                left: 115px;
+                top: 30;
+            }
+
+            .img__2{
+                position: absolute;
+                z-index: 799;
+                left: 300px;
+                top: -40px;
+            }
+
+            .img__3{
+                position: absolute;
+                z-index: 899;
+                left: 410px;
+                top: 165px;
+            }
+            .img__4{
+                height: 210px;
+                width: 160px;
+                background: #FFE8D0;
+                position: absolute;
+                z-index: 699;
+                left: 475px;
+                top: -5px;
+            }
+        }
+    }
+
+}

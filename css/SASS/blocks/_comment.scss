@@ -1,0 +1,42 @@
+.comment{
+    background: #E5E5E5;
+}
+
+    .swiper{
+        height: 500px;
+
+        .swiper-slide{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .slide__item-img{
+                margin-bottom: 25px;
+
+                >img{
+                    border-radius: 50%;
+                }
+            }
+
+            .slide__item-decs{
+                width: 900px;
+                font-family: $f1;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+
+            .slide__item-title{
+                font-size: 25px;
+                font-family: $f1; 
+                margin-bottom: 20px;    
+            }
+
+            .slide__item-subtitle{
+                font-family: $f1;
+                font-size: 20px;
+            }
+        }
+    }
+
